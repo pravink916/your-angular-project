@@ -11,6 +11,7 @@ import { RouterModule } from '@angular/router';
     BrowserModule,
     RouterModule.forRoot([
       { path: 'helloWorld', component: HelloWorldComponent },
+      { path: '', component: HelloWorldComponent },
     ]),
   ],
   providers: [],
